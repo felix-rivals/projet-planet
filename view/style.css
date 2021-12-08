@@ -1,0 +1,95 @@
+html {
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+.top__side {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #DCDCDC;
+    font-size: 3rem;
+    font-family: TommyThin, Arial;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.div__button {
+    display: flex;
+    justify-content: center;
+}
+
+.div__button a {
+    color: white;
+    padding: 1.3rem;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: TommyLight, Arial;
+    border: 1px solid white;
+    border-radius: 1.3rem;
+    font-size: 1rem;
+    margin-top: 35vh;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.div__button a:hover {
+    background-color: white;
+    color: black;
+}
+
+@font-face {
+    font-family: Cali;
+    src: url(../view/fonts/cali.ttf);
+    font-weight: auto;
+}
+
+@font-face {
+    font-family: TommyThin;
+    src: url(../view/fonts/tommy_thin.otf);
+    font-weight: auto;
+}
+
+@font-face {
+    font-family: TommyRegular;
+    src: url(../view/fonts/tommy_regular.otf);
+    font-weight: auto;
+}
+
+@font-face {
+    font-family: TommyMedium;
+    src: url(../view/fonts/tommy_medium.otf);
+    font-weight: auto;
+}
+
+@font-face {
+    font-family: TommyLight;
+    src: url(../view/fonts/tommy_light.otf);
+    font-weight: auto;
+}
+
+@font-face {
+    font-family: TommyExtraBold;
+    src: url(../view/fonts/tommy_extrabold.otf);
+    font-weight: auto;
+}
+
+@font-face {
+    font-family: TommyBlack;
+    src: url(../view/fonts/tommy_black.otf);
+    font-weight: auto;
+}
