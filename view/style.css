@@ -15,7 +15,7 @@ html {
     display: inline-block;
 }
 
-.navbar a {
+.navbar li > a {
     text-decoration: none;
     list-style-type: none;
     color: #DCDCDC;
@@ -30,18 +30,17 @@ html {
     justify-content: space-around;
 }
 
-.div__button {
+/*.div__button {
     display: flex;
     justify-content: center;
-}
+}*/
 
-.div__button a {
+/*.div__button a {
     color: white;
     padding: 1.3rem;
     text-decoration: none;
     list-style-type: none;
     font-family: TommyLight, Arial;
-    border: 1px solid white;
     border-radius: 1.3rem;
     font-size: 1rem;
     margin-top: 35vh;
@@ -51,7 +50,93 @@ html {
 .div__button a:hover {
     background-color: white;
     color: black;
+}*/
+
+.boutonmenuprincipal {
+    color: #DCDCDC;
+    cursor: pointer;
+    font-size: 3rem;
+    font-family: TommyThin, Arial;
+    width: 20rem;
+    text-align: center;
 }
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    min-width: 50px;
+}
+
+.secdropdown-child {
+    display: none;
+    min-width: 50px;
+}
+
+.dropdown-child_sec {
+    display: none;
+}
+
+.dropdown-child li {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    font-family: TommyThin, Arial;
+    text-align: center;
+    padding: 1rem;
+}
+
+.dropdown-child_sec li {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: TommyThin, Arial;
+    text-align: center;
+}
+
+.sousmenu {
+    font-family: TommyThin, Arial;
+    font-size: 1.3rem;
+    color: #DCDCDC;
+    cursor: pointer;
+}
+
+.secdropdown-child a {
+    color: #c5c5c5;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: TommyThin, Arial;
+}
+
+
+
+.dropdown-child li:first-child {
+    margin-top: 2rem;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.dropdown:hover .dropdown-child_sec {
+    display: block;
+}
+
+.dropdown-child:hover .secdropdown-child {
+    display: block;
+}
+
+.dropdown-child_sec:hover .secdropdown-child {
+    display: block;
+}
+
+
 
 @font-face {
     font-family: Cali;
