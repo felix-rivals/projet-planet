@@ -18,7 +18,7 @@
         <div class="top__side">
             <nav class="navbar">
                 <ul>
-                    <li><a href="">Accueil</a></li>
+                    <li><a href="./index.php?action=accueil">Accueil</a></li>
                     <li><a href="">Autres</a></li>
                 </ul>
             </nav>

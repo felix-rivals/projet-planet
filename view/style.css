@@ -25,7 +25,8 @@ html {
 
 .navbar ul {
     display: flex;
-    width: 100%;
+    width: 80%;
+    justify-content: space-between;
     justify-content: space-around;
 }
 
