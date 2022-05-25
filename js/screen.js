@@ -5,8 +5,8 @@ const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.inner
 
 // Creation du rendu
 const renderer = new THREE.WebGLRenderer(); renderer.setSize
-( window.innerWidth, window.innerHeight ); document.body.appendChild( renderer.domElement ); 
-w=8;
+( window.innerWidth, window.innerHeight ); document.body.appendChild( renderer.domElement );
+w=2;
 
 // Creation du l'objet geometrique
 const geometry1 = new THREE.BoxGeometry(w, w, w);
